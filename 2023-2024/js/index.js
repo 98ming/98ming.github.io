@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 5||大铭姐|元旦礼物奉上|希望|你|顺风顺水|狂吃不胖|快乐连连|永久甜甜|2024|新年快乐|#rectangle|');
+      S.UI.simulate('|#countdown 3||小秀姐姐|元旦礼物呈上|希望|你|顺风顺水|狂吃不胖|快乐连连|永久甜甜|2024|新年快乐|#rectangle|');
     }
 
     S.Drawing.loop(function () {
